@@ -20,11 +20,11 @@
 
 <br />
 
-[**Quick Start**](#-quick-start) •
-[**Endpoints**](#-api-endpoints) •
-[**Examples**](#-request-bodies) •
-[**Structure**](#-project-structure) •
-[**Author**](#-author)
+[**Quick Start**](#quick-start) •
+[**Endpoints**](#endpoints) •
+[**Examples**](#examples) •
+[**Structure**](#structure) •
+[**Author**](#author)
 
 </div>
 
@@ -53,6 +53,8 @@
 
 ---
 
+<a id="quick-start"></a>
+
 ## 🚀 Quick Start
 
 ```bash
@@ -70,6 +72,8 @@ npm run dev
 > Make sure MongoDB is running locally, or put a **MongoDB Atlas** connection string in `MONGO_URI` inside your `.env`.
 
 ---
+
+<a id="structure"></a>
 
 ## 🗂️ Project Structure
 
@@ -138,6 +142,8 @@ erDiagram
 
 ---
 
+<a id="endpoints"></a>
+
 ## 📡 API Endpoints
 
 > 🔒 = requires `Authorization: Bearer <token>`
@@ -171,6 +177,8 @@ erDiagram
 | ![DELETE](https://img.shields.io/badge/DELETE-C0392B?style=flat-square) | `/api/courses/:id` | 🔒 | Delete a course |
 
 ---
+
+<a id="examples"></a>
 
 ## 📨 Request Bodies
 
@@ -262,7 +270,9 @@ curl "http://localhost:5000/api/courses?category=<categoryId>"
 
 ---
 
-## 👨‍💻 Author
+<a id="author"></a>
+
+## ✍️ Author
 
 <div align="center">
 
